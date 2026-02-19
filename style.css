@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rowdies", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+.wrapper1 {
+    background-image: url(./img/fitness\ girl.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo .h1 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.logo .logo-h1 {
+    align-items: center;
+    color: red;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color:#FFFFFF;
+    text-decoration: none;
+    transition: 0.2 all ease;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+ul {
+    display: flex;
+    gap: 35px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btns button:nth-child(1) {
+    padding: 15px 30px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 9px;
+}
+
+.text button {
+    padding: 15px 30px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+
+.text h1 {
+    font-size: 92px;
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-top: 120px;
+}
+
+.text .h4-span {
+    color: #FF000080;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.text h4 {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-top: 20px;
+}
